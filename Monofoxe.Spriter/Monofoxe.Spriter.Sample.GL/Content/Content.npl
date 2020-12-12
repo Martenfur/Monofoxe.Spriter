@@ -1,0 +1,63 @@
+{
+	"root": "../../Monofoxe.Spriter.Sample.Content/Content/",
+	"references":
+	[
+		"../../Monofoxe.Spriter.Sample.Content/bin/*.dll"
+	],
+	"content":
+	{
+		"contentList":
+		{
+			"path": "$Content.npl",
+			"recursive": "False",
+			"action": "build",
+			"importer": "ResourceInfoImporter",
+			"processor": "PassThroughProcessor",
+			"watch":
+			[
+				"../../Monofoxe.Spriter.Sample.Content/Content/*"
+			]
+		},
+		"defaultSpriteGroup":
+		{
+			"path": "Graphics/*.spritegroup",
+			"recursive": "True",
+			"action": "build",
+			"importer": "SpriteGroupImporter",
+			"processor": "SpriteGroupProcessor",
+			"watch":
+			[
+				"Default/*.png",
+				"Default/*.json"
+			]
+		},
+		"effects":
+		{
+			"path": "Effects/*.fx",
+			"recursive": "True",
+			"action": "build",
+			"importer": "EffectImporter",
+			"processor": "EffectProcessor"
+		},
+		"fonts":
+		{
+			"path": "Fonts/*.spritefont",
+			"recursive": "True",
+			"action": "build",
+			"importer": "FontDescriptionImporter",
+			"processor": "FontDescriptionProcessor"
+		},
+		"animations":
+		{
+			"path": "Graphics/Animations/*.scml",
+			"recursive": "True",
+			"action": "build",
+			"importer": "SpriterImporter",
+			"processor": "PassThroughProcessor",
+			"watch":
+			[
+				"Graphics/Animations/*.png"
+			]
+		}
+	}
+}

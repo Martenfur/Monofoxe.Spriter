@@ -1,0 +1,9 @@
+﻿{
+	"atlasSize": 2048,
+	"texturePadding": 1,
+	"rootDir": "/Animations",
+	"singleTexturesWildcards": 
+	[
+		"/Textures/*"
+	]
+}

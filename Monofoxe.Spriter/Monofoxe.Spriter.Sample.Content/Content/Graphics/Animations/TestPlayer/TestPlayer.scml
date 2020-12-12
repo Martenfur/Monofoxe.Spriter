@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11" pixel_mode="1">
+    <folder id="0">
+        <file id="0" name="TestPlayerBody.png" width="64" height="64" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <entity id="0" name="TestPlayer">
+        <obj_info name="bone_000" type="bone" w="78.0064" h="10"/>
+        <animation id="0" name="Base" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="1" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="TestPlayerBody">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="270"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone angle="90"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Idle" length="2000" interval="100">
+            <mainline>
+                <key id="0" curve_type="quartic" c1="0.4131" c2="0.9671" c3="0.910798">
+                    <bone_ref id="0" timeline="1" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="1000" curve_type="quartic" c1="0.3944" c2="0.9202" c3="0.8826">
+                    <bone_ref id="0" timeline="1" key="1"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="TestPlayerBody">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="270"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone angle="90"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <bone angle="90" scale_y="0.95"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="IdleSpecial" length="2000" interval="100" looping="false">
+            <mainline>
+                <key id="0" curve_type="quintic" c1="0.995305" c2="0.995305" c3="0.995305" c4="0.995305">
+                    <bone_ref id="0" timeline="1" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="500" curve_type="quadratic" c1="0">
+                    <bone_ref id="0" timeline="1" key="1"/>
+                    <object_ref id="0" parent="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="2" time="700" curve_type="quadratic" c1="0.995305">
+                    <bone_ref id="0" timeline="1" key="2"/>
+                    <object_ref id="0" parent="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="3" time="900" curve_type="cubic" c1="0" c2="0">
+                    <bone_ref id="0" timeline="1" key="2"/>
+                    <object_ref id="0" parent="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="4" time="1200">
+                    <bone_ref id="0" timeline="1" key="3"/>
+                    <object_ref id="0" parent="0" timeline="0" key="6" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="TestPlayerBody">
+                <key id="0">
+                    <object folder="0" file="0" angle="270"/>
+                </key>
+                <key id="1" time="500">
+                    <object folder="0" file="0" x="32" y="-3" pivot_x="0.5" pivot_y="0" angle="275"/>
+                </key>
+                <key id="2" time="500">
+                    <object folder="0" file="0" x="64" pivot_x="0.494587" pivot_y="0.50535" angle="275"/>
+                </key>
+                <key id="3" time="700">
+                    <object folder="0" file="0" x="80" pivot_x="0.494587" pivot_y="0.50535" angle="94.333"/>
+                </key>
+                <key id="4" time="900" spin="-1">
+                    <object folder="0" file="0" x="80" pivot_x="0.494587" pivot_y="0.50535" angle="273"/>
+                </key>
+                <key id="5" time="1200" spin="-1">
+                    <object folder="0" file="0" x="32" pivot_x="0.494587" pivot_y="0.50535" angle="270"/>
+                </key>
+                <key id="6" time="1200" spin="0">
+                    <object folder="0" file="0" pivot_x="0.498866" pivot_y="0.00123" angle="270"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone angle="90"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <bone y="32" angle="90"/>
+                </key>
+                <key id="2" time="700" spin="0">
+                    <bone y="16" angle="90"/>
+                </key>
+                <key id="3" time="1200" spin="0">
+                    <bone angle="90"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="Dash" length="250" interval="100">
+            <mainline>
+                <key id="0" curve_type="quartic" c1="0.356808" c2="0.9624" c3="0.995305">
+                    <bone_ref id="0" timeline="1" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100" curve_type="cubic" c1="0" c2="0.3991">
+                    <bone_ref id="0" timeline="1" key="1"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <bone_ref id="0" timeline="1" key="2"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="225">
+                    <bone_ref id="0" timeline="1" key="3"/>
+                    <object_ref id="0" parent="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="TestPlayerBody">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="270"/>
+                </key>
+                <key id="1" time="225" spin="0">
+                    <object folder="0" file="0" angle="270"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone angle="90"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <bone y="50" angle="90" scale_y="0.95"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <bone angle="90"/>
+                </key>
+                <key id="3" time="225" spin="0">
+                    <bone angle="90" scale_y="0.8"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="Run" length="500" interval="100">
+            <mainline>
+                <key id="0" curve_type="quadratic" c1="1">
+                    <bone_ref id="0" timeline="1" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="125" curve_type="cubic" c1="0" c2="0">
+                    <bone_ref id="0" timeline="1" key="1"/>
+                    <object_ref id="0" parent="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="250" curve_type="quadratic" c1="1">
+                    <bone_ref id="0" timeline="1" key="2"/>
+                    <object_ref id="0" parent="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="3" time="375" curve_type="cubic" c1="0" c2="0">
+                    <bone_ref id="0" timeline="1" key="3"/>
+                    <object_ref id="0" parent="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="TestPlayerBody">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="270"/>
+                </key>
+                <key id="1" time="125" spin="0">
+                    <object folder="0" file="0" angle="270"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="0" name="bone_000" object_type="bone">
+                <key id="0">
+                    <bone angle="90" scale_y="0.7"/>
+                </key>
+                <key id="1" time="125" spin="-1">
+                    <bone y="20" angle="100"/>
+                </key>
+                <key id="2" time="250" spin="-1">
+                    <bone angle="90" scale_y="0.7"/>
+                </key>
+                <key id="3" time="375">
+                    <bone y="20" angle="80"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

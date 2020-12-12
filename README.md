@@ -9,25 +9,30 @@ But be warned, this is what I use for my games internally, and it's not as polis
 
 Changes so far:
 
-## Added
+### Added
 
 - Added Monofoxe implementation.
 - Added an ability to manipulate bones and sprites at runtime.
 - Z tilting support.
 
-## Removed
+### Removed
 
 - Removed default Monogame implementation.
 - Removed Unity implementation.
 - Removed frame caching. It did not play well with runtime bone manipulation and time slowdown.
 
-## Changed
+### Changed
 
 - Did a complete codestyle overhaul. The code is much more readable now.
 - Greatly reduced code complexity. Removed unnecessary interfaces and hygely simplified initial setup.
 - Did a bunch of renamings and class merges to get rid of nothing-classes.
 
-## Fixed
+### Fixed
 
 - Fixed completely broken animation transitions. [Fix](https://github.com/loodakrawa/SpriterDotNet/issues/99)
 - Fixed an issue where some interpolations were calculated incorrecty in edge cases.
+
+## Running the sample
+
+Before running Monofoxe sample, you need to build the `Content` project.
+

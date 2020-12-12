@@ -1,0 +1,67 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/AssimpNet.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/ATI.TextureConverter.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/CppNet.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/Microsoft.Win32.Registry.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/Monofoxe.Pipeline.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/Monofoxe.Spriter.Content.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/MonoGame.Framework.Content.Pipeline.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/MonoGame.Framework.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/Newtonsoft.Json.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/Nvidia.TextureTools.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/PVRTexLibNET.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/SharpDX.D3DCompiler.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/SharpDX.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/SharpFont.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/StbImageSharp.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/System.Buffers.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/System.Memory.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/System.Numerics.Vectors.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/System.Runtime.CompilerServices.Unsafe.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/System.Security.AccessControl.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/System.Security.Principal.Windows.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/Monofoxe.Spriter.Sample.Content.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/Monofoxe.Engine.dll
+/reference:../../Monofoxe.Spriter.Sample.Content/bin/Monofoxe.Spriter.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Content.npl
+/importer:ResourceInfoImporter
+/processor:PassThroughProcessor
+/build:Content.npl
+
+#begin ../../Monofoxe.Spriter.Sample.Content/Content/Graphics/Default.spritegroup
+/importer:SpriteGroupImporter
+/processor:SpriteGroupProcessor
+/build:../../Monofoxe.Spriter.Sample.Content/Content/Graphics/Default.spritegroup;Graphics/Default.spritegroup
+
+#begin ../../Monofoxe.Spriter.Sample.Content/Content/Fonts/Arial.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/build:../../Monofoxe.Spriter.Sample.Content/Content/Fonts/Arial.spritefont;Fonts/Arial.spritefont
+
+#begin ../../Monofoxe.Spriter.Sample.Content/Content/Graphics/Animations.spritegroup
+/importer:SpriteGroupImporter
+/processor:SpriteGroupProcessor
+/build:../../Monofoxe.Spriter.Sample.Content/Content/Graphics/Animations.spritegroup;Graphics/Animations.spritegroup
+
+#begin ../../Monofoxe.Spriter.Sample.Content/Content/Graphics/Animations/GreyGuy/player.scml
+/importer:SpriterImporter
+/processor:PassThroughProcessor
+/build:../../Monofoxe.Spriter.Sample.Content/Content/Graphics/Animations/GreyGuy/player.scml;Graphics/Animations/GreyGuy/player.scml
+
+#begin ../../Monofoxe.Spriter.Sample.Content/Content/Graphics/Animations/TestPlayer/TestPlayer.scml
+/importer:SpriterImporter
+/processor:PassThroughProcessor
+/build:../../Monofoxe.Spriter.Sample.Content/Content/Graphics/Animations/TestPlayer/TestPlayer.scml;Graphics/Animations/TestPlayer/TestPlayer.scml
